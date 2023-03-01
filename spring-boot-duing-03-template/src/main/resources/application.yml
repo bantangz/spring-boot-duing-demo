@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+#spring:
+#  mvc:
+#    view:
+#      #\u6587\u4EF6\u7684\u4F4D\u7F6E \u4E0D\u80FD\u4FEE\u6539
+#      prefix: /templates/
+#      suffix: .ftl
+

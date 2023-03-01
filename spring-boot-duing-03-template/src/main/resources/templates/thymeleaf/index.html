@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head lang="en">
+
+		<meta charset="UTF-8"/>
+		<title></title>
+	</head>
+	<body>
+<!--		text 不会解析标签  传什么就展什么-->
+<!--		<p th:text="${name}">name假的</p>-->
+<!--		<p th:utext="${name}">name假的</p>-->
+<!--		utext 会解析标签 -->
+
+			<p th:text="${restaurant.boss}">name假的</p>
+			<p th:utext="${restaurant.chef}">name假的</p>
+	</body>
+</html>
